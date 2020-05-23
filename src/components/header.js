@@ -2,6 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Row, Col } from "react-grid-system"
+import { motion } from "framer-motion"
 import { LinkedIn, Github, Twitter, Logo } from "../icons/index"
 
 const Header = ({ siteTitle }) => (
@@ -12,7 +13,7 @@ const Header = ({ siteTitle }) => (
           <Logo />
         </Col>
         <Col className="social-icons" align="end" xs={6} sm={6} lg={6}>
-          <div
+          <motion.div
             variants={{
               hidden: { y: -50, opacity: 0 },
               visible: { y: 0, opacity: 1 },
@@ -21,10 +22,19 @@ const Header = ({ siteTitle }) => (
             animate="visible"
             transition={{ duration: 0.5 }}
           >
-            <Twitter />
-            <Github />
-            <LinkedIn />
-          </div>
+            <a href="https://twitter.com/Prakashio" target="_blank">
+              <Twitter />
+            </a>
+            <a href="https://github.com/Prakash106" target="_blank">
+              <Github />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/prakash-kumar-2a257990/"
+              target="_blank"
+            >
+              <LinkedIn />
+            </a>
+          </motion.div>
         </Col>
       </Row>
     </nav>
