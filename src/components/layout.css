@@ -5,11 +5,30 @@ html {
 }
 
 body {
+  font-family: "Open Sans", sans-serif;
   color: #2b2e4a;
   background-image: url("../images/bar.png");
   background-repeat: repeat-x;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#b83b5e, #6a2c70);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Jost", sans-serif;
+  /* color: #6a2c70; */
 }
 
 .navigation {
@@ -18,7 +37,12 @@ body {
 
 .social-icons * {
   margin-top: 2px;
-  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.social-icons *:hover {
+  /* -webkit-linear-gradient(#b83b5e, #6a2c70); */
+  background-color: #f08a5d;
 }
 
 .margin-0 {
