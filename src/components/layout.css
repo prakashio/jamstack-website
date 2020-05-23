@@ -20,3 +20,16 @@ body {
   margin-top: 2px;
   margin-left: 5px;
 }
+
+.margin-0 {
+  line-height: 0rem;
+  margin-top: 2.5rem;
+}
+
+.intro {
+  margin-top: 15%;
+}
+
+.person {
+  margin-top: 20%;
+}
