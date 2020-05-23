@@ -1,14 +1,5 @@
 import React from "react"
 
-const icon = {
-  hidden: {
-    pathLength: 0,
-  },
-  visible: {
-    pathLength: 1,
-  },
-}
-
 const Person = ({ className }) => (
   <svg
     className={className}

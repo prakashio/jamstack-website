@@ -17,5 +17,20 @@ module.exports = {
         fonts: [`Jost\:700`],
       },
     },
+    {
+      resolve: "gatsby-plugin-mdx",
+      options: {
+        defaultLayouts: {
+          default: require.resolve("./src/components/layout.js"),
+        },
+      },
+    },
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "blogs",
+        path: "blogs",
+      },
+    },
   ],
 }
