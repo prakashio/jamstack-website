@@ -1,0 +1,21 @@
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  color: #2b2e4a;
+  background-image: url("../images/bar.png");
+  background-repeat: repeat-x;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navigation {
+  margin-top: 2rem;
+}
+
+.social-icons * {
+  margin-left: 1rem;
+}
