@@ -24,6 +24,7 @@ body {
 a {
   font-weight: bold;
   background: -webkit-linear-gradient(#b83b5e, #6a2c70);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
