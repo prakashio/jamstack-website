@@ -17,7 +17,7 @@ export const query = graphql`
 
 const BlogTemplate = ({ data: { mdx: blog } }) => (
   <Layout>
-    <h1>{blog.frontmatter.title}</h1>
+    <h1 className="page-header">{blog.frontmatter.title}</h1>
     <p>Posted by {blog.frontmatter.author}</p>
     <MDXRenderer>{blog.body}</MDXRenderer>
     <Link to="/blogs">&larr; back to all posts</Link>

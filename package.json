@@ -12,20 +12,21 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@mdx-js/mdx": "^1.6.1",
     "framer-motion": "^1.11.0",
     "gatsby": "^2.22.9",
-    "@mdx-js/mdx": "^1.6.1",
+    "gatsby-mdx": "^1.0.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
+    "gatsby-plugin-manifest": "^2.4.9",
+    "gatsby-plugin-mdx": "^1.2.4",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.3.2",
+    "gatsby-source-filesystem": "^2.3.0",
     "prettier": "^2.0.5",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-grid-system": "^6.4.2",
-    "react-helmet": "^6.0.0",
-    "gatsby-mdx": "^1.0.0",
-    "gatsby-plugin-mdx": "^1.2.4",
-    "gatsby-source-filesystem": "^2.3.0"
+    "react-helmet": "^6.0.0"
   }
 }

@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
             <Logo />
           </Link>
         </Col>
-        <Col align="end" xs={6} sm={6} lg={6}>
+        <Col align="end" xs={6} sm={6} lg={6} className="links">
           <Link to="/blogs">Blogs</Link>
         </Col>
       </Row>

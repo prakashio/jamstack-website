@@ -11,7 +11,7 @@ const BlogPreview = ({ blog }) => (
           <Link to={blog.slug}>{blog.title}</Link>
         </h3>
         <p>{blog.excerpt}</p>
-        <Link to={blog.slug}>Read this Blog &rarr;</Link>
+        <Link to={blog.slug}>Read this Post &rarr;</Link>
       </div>
     </article>
   </Col>
