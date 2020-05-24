@@ -1,6 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
-import { Row, Col } from "react-grid-system"
+import { Row, Col, Hidden } from "react-grid-system"
 import { Person } from "../icons/index"
 import Introduction from "../components/Introduction"
 
@@ -11,7 +11,9 @@ export default () => (
         <Introduction />
       </Col>
       <Col offset={{ sm: 1 }} align="end" sm={4}>
-        <Person className="person"></Person>
+        <Hidden xs sm>
+          <Person className="person"></Person>
+        </Hidden>
       </Col>
     </Row>
   </Layout>

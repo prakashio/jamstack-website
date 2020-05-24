@@ -10,8 +10,9 @@ export default () => {
             👋🏽
           </span>
           <br />
-          Hey there
-          <br /> I'm a javascript developer and passionate learner.
+          Hey there <br />
+          I'm a javascript developer I love to code and design because it's
+          always default option for me.
         </h1>
         <h3 className="margin-0">Introduction</h3>
         <p>

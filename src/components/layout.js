@@ -19,7 +19,7 @@ const Layout = ({ children }) => {
 
   return (
     <Container>
-      <Header siteTitle={data.site.siteMetadata.title} />
+      <Header />
       <Helmet>
         <html lang="en" />
         <title>{data.site.siteMetadata.title}</title>

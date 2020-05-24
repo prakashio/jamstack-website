@@ -4,12 +4,12 @@ import React from "react"
 import { Row, Col } from "react-grid-system"
 import { Logo } from "../icons/index"
 
-const Header = ({ siteTitle }) => (
+const Header = () => (
   <header>
     <nav className="navigation">
       <Row justify="between">
         <Col align="start" xs={6} sm={6} lg={6}>
-          <Link to="/">
+          <Link aria-current="page" to="/">
             <Logo />
           </Link>
         </Col>
