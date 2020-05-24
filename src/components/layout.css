@@ -28,6 +28,14 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+::-moz-selection {
+  background: #f08a5d;
+  color: white;
+}
+::selection {
+  background: #f08a5d;
+  color: white;
+}
 
 p {
   font-size: 18px;
