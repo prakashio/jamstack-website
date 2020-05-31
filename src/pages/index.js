@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { Row, Col, Hidden, Visible } from "react-grid-system"
-import { Person } from "../icons/index"
+import { Illustrations } from "../assets"
 import Introduction from "../components/Introduction"
 
 export default () => (
@@ -9,7 +9,7 @@ export default () => (
     <Row>
       <Visible xs sm>
         <Col align="center" sm={12} xs={12}>
-          <Person className="person"></Person>
+          <img className="person" src={Illustrations.Person} alt="" />
         </Col>
         <Col offset={{ md: 1 }} sm={12} xs={12}>
           <Introduction />
@@ -20,7 +20,7 @@ export default () => (
           <Introduction />
         </Col>
         <Col offset={{ lg: 1 }} md={4} align="end" lg={4}>
-          <Person className="person"></Person>
+          <img className="person" src={Illustrations.Person} alt="" />
         </Col>
       </Hidden>
     </Row>

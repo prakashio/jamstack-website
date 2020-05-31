@@ -28,6 +28,7 @@ a {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 ::-moz-selection {
   background: #f08a5d;
   color: white;

@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import { Row, Col } from "react-grid-system"
-import { Logo } from "../icons/index"
+import { Logo } from "../assets"
 
 const Header = () => (
   <header>

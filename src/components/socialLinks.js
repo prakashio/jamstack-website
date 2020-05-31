@@ -1,5 +1,5 @@
 import React from "react"
-import { LinkedIn, Github, Twitter } from "../icons/index"
+import { LinkedIn, Github, Twitter } from "../assets"
 
 export default () => (
   <div className="social-icons">
